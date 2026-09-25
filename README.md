@@ -37,3 +37,17 @@ Spam / Ham Prediction
 FastAPI Response
      ↓
 Web Interface
+
+## 🖥️ Application Screenshots
+
+### 🚨 Spam Detection
+
+The application successfully identifies suspicious messages as spam.
+
+![Spam Detection](static/screenshots/spam-result.png)
+
+### ✅ Ham Detection
+
+Normal messages are classified as ham (not spam).
+
+![Ham Detection](static/screenshots/ham-result.png)
