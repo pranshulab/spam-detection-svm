@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spam Detection System</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>📧 Spam Detection</h1>
+
+            <p class="subtitle">
+                Detect whether a message is Spam or Ham using Machine Learning.
+            </p>
+
+            <label for="message">
+                Enter your message
+            </label>
+
+            <textarea
+                id="message"
+                placeholder="Type or paste your message here..."
+            ></textarea>
+
+            <button onclick="checkMessage()">
+                🔍 Check Message
+            </button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
